@@ -643,46 +643,28 @@ header .navigation ul li a:hover {
   margin: 0;
   margin-bottom: 20px;
 }
-.footer .container .box .information {
+.footer .container .box .box-size .information {
   color: #ddd;
-  font-size: 20px;
   display: flex;
 }
-.footer .container .box .information .info {
-  margin: 10px 5px;
-  /* letter-spacing: 1px; */
-}
-.footer .container .box .information .info span {
-  margin-right: 10px;
-  letter-spacing: 0;
-}
-.footer .container .box .information i {
-  font-size: 23px;
+.footer .container .box .box-size .information i {
+  font-size: 22px;
   display: flex;
   align-items: center;
 }
-.footer .container .box .information a {
+.footer .container .box .box-size .information .info {
   color: #ddd;
+  margin: 10px 5px;
   font-size: 18px;
   letter-spacing: 0;
 }
-.footer .container .box .line {
-  display: flex;
-  align-items: center;
-  color: #b9b9b9;
-  margin-bottom: 30px;
+.footer .container .box .box-size .information .mail {
+  font-size: 14px;
 }
-.footer .container .box .line i {
-  font-size: 25px;
-  color: var(--main-color);
+.footer .container .box .box-size .information .info span {
   margin-right: 10px;
-}
-.footer .container .box .line .info {
-  line-height: 1.7;
-  flex: 1;
-}
-.footer .container .box .line .info span {
-  display: block;
+  letter-spacing: 0;
+  font-size: 15px;
 }
 .footer .container .box .about_us {
   text-align: left;
@@ -736,12 +718,6 @@ header .navigation ul li a:hover {
   .footer .container .box .social-icons {
     justify-content: center;
   }
-  .footer .container .box .line {
-    flex-direction: column;
-  }
-  .footer .container .box .line i {
-    margin: 0 0 10px;
-  }
   .footer .container .box .box-size {
     align-items: center;
   }
@@ -751,15 +727,15 @@ header .navigation ul li a:hover {
   .footer .container .box .box-size .information i {
     font-size: 17px;
   }
-  .footer .container .box .box-size .information:first-child {
-    font-size: 13px;
-  }
   .footer .container .box .information .info span {
     margin-right: 5px;
   }
+  .footer .container .box .box-size .information .mail {
+
+  }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 360px) {
   header .navigation ul li a {
     font-size: 14px;
     padding: 0px 5px;
@@ -771,8 +747,16 @@ header .navigation ul li a:hover {
     font-size: 13px;
     margin-right: 5px;
   }
+  .footer .container .box .box-size .information .mail {
+    font-size: 13px;
+  }
   .footer .container .box .box-size .information a {
     font-size: 16px;
+  }
+}
+@media (max-width: 310px) {
+  .footer .container .box .box-size .information .mail {
+    font-size: 12px;
   }
 }
 

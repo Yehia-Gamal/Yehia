@@ -86,24 +86,24 @@ img {
     width: 1170px;
   }
 }
-/* Start Global Rules */
+/* End Global Rules */
 
 /* Start Back To Top Button */
-.back-to-top {
+#back-to-top {
   position: fixed;
   bottom: 20px;
   right: 25px;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #ddd;
+  background: rgba(175, 183, 193, 0.7);
   visibility: hidden;
   cursor: pointer;
   -webkit-transition: all 0.2s ease;
   transition: all 0.3s ease;
   z-index: 2;
 }
-.back-to-top::after {
+#back-to-top::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -117,10 +117,10 @@ img {
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
-.back-to-top:hover {
+#back-to-top:hover {
   background: var(--main-color);
 }
-.back-to-top:hover::after {
+#back-to-top:hover::after {
   border-color: #fff;
 }
 /* End Back To Top Button */
@@ -729,9 +729,6 @@ header .navigation ul li a:hover {
   }
   .footer .container .box .information .info span {
     margin-right: 5px;
-  }
-  .footer .container .box .box-size .information .mail {
-
   }
 }
 

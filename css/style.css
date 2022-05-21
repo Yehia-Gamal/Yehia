@@ -184,15 +184,15 @@ header .navigation ul li a {
 }
 @media (max-width: 767px) {
   header .navigation ul > li > a {
-    padding: 0px 20px;
-    font-size: 18px;
+    padding: 0px 15px;
+    font-size: 17px;
     height: 35px;
   }
 }
 @media (max-width: 500px) {
   header .navigation ul > li > a {
-    padding: 0px 10px;
-    font-size: 17px;
+    padding: 0px 6px;
+    font-size: 15px;
   }
 }
 @media (max-width: 400px) {
@@ -251,6 +251,7 @@ header .navigation ul li a:hover {
   background-image: url("../images/background\ 02.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
   z-index: -1;
 }
@@ -347,7 +348,7 @@ header .navigation ul li a:hover {
 }
 @media (max-width: 767px) {
   .main div h2 span {
-    font-size: 50px;
+    font-size: 45px;
   }
   .main div h3 {
     font-size: 30px;
@@ -818,8 +819,8 @@ header .navigation ul li a:hover {
 
 @media (max-width: 360px) {
   header .navigation ul li a {
-    font-size: 14px;
-    padding: 0px 5px;
+    font-size: 13px;
+    padding: 0px 4px;
   }
   .footer .container .box {
     max-width: 270px;

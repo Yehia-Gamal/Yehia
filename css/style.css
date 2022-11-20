@@ -251,7 +251,7 @@ header .navigation ul li a:hover {
   background-image: url("../images/background\ 02.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center; 
   background-attachment: fixed;
   z-index: -1;
 }

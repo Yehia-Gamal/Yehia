@@ -367,7 +367,7 @@ header .navigation ul li a:hover {
 .about {
   padding-top: var(--main-padding);
   padding-bottom: var(--main-padding);
-  background-color: #fff;
+  background-color: var(--section-background);
 }
 
 .about .container .box {
